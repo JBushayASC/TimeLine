@@ -1,0 +1,49 @@
+.first{
+    /* width: 600px;
+    margin: 0 auto; */
+background-color: azure;
+width: 300px;
+height: 900px;
+}
+.second{
+    background-color: beige;
+    width: 300px;
+    height: 900px;
+}
+.third{
+    background-color: bisque;
+    width: 300px;
+    height: 900px;
+}
+.fourth{
+    background-color: blanchedalmond;
+    width: 300px;
+    height: 900px;
+}
+.fifth{
+    background-color: burlywood;
+    width: 300px;
+    height: 900px;
+}
+.container{
+    background-color: aqua;
+    display: flex;
+}
+    hr {
+        width: 80%;
+        height: 8px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color:#666;
+        border: 0 none;
+        margin-top: 100px;
+        margin-bottom:100px;
+}
+div.vertical-line{
+    width: 10px; /* Line width */
+    background-color: black; /* Line color */
+    height: 100px; /* Override in-line if you want specific height. */
+    position: "200"; /* Causes the line to float to left of content. 
+      You can instead use position:absolute or display:inline-block
+      if this fits better with your design */
+  }
